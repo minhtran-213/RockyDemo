@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsLn6kM1fSEGGs5zA4srpbAAAAAACAAAAAAAQZgAAAAEAACAAAAAVW1m8QKN5rLnsx6EXXhqAtOBrX6ht8eN37PhwUgtLugAAAAAOgAAAAAIAACAAAABOapOstmCX4gYQW80gNcHw7AAmGEpOJ1tBxyDGMMSeaIAAAABpKnIkhVSM2X1JGbvxsoBXAnk7+LE1bEARetN9OzMMqIQJj89Aw5dal7oxVAmKAR8g9XwZQz/Civpsj9pH0D5j2k/BXwtiskHfFc22AHArOTs1k+xzyz4Xx+bwBys/Z/stjJ7vihrP+1JBLFlZQYiCzyxrrg2q/ec09iuuLi9GH0AAAACR3DZ7oY3GzPyz6NsCZUFA7vQVS5bbJD+vAJGeAaFzREXW+CkYWKH3kpX673uE1jr7HFmps/QYPYIpgLsfH92h</EncryptedPassword>
+    <History>True|2021-09-04T10:24:36.2717940Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:rockydemo123dbserver.database.windows.net,1433%3bInitial Catalog=Rocky_db%3bUser Id=adminuser%40rockydemo123dbserver%3bPassword=Shinichi21301</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Rocky.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:rockydemo123dbserver.database.windows.net,1433%3bInitial Catalog=Rocky_db%3bUser Id=adminuser%40rockydemo123dbserver%3bPassword=Shinichi21301</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
